@@ -39,7 +39,7 @@
       "icon-size": 14,
       "hover-opens": false,
       "leave-closes": true,
-      "click-closes": false,
+      "click-closes": true,
       "css-name": "controls-window",
       "custom-items": [
         {
@@ -80,7 +80,12 @@
       "battery-low-level": 20,
       "battery-low-interval": 3,
       "processes-label": "Processes",
-      "angle": 0
+      "angle": 0.0,
+      "show-brightness": false,
+      "show-volume": false,
+      "show-battery": true,
+      "per-app-volume": false,
+      "readme-label": "README"
     },
     "tray": {
       "root-css-name": "tray",

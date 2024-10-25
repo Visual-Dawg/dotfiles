@@ -29,6 +29,9 @@ set -gx VISUAL nvim
 # set -gx MANPAGER most
 set -Ux MANPAGER "nvim +Man!"
 # set -Ux MANWIDTH "999"
+set -Ux fifc_editor nvim
+set -gx TERM kitty
+set -Ux TERM kitty
 
 source ~/.config/fish/functions.fish
 source ~/.config/fish/themes/gruvbox_material.fish
@@ -50,8 +53,5 @@ function fish_greeting
 end
 
 
-
-
-
-
-
+# Created by `pipx` on 2024-10-05 22:27:21
+set PATH $PATH /home/vdawg/.local/bin

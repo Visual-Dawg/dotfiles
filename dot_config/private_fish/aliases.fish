@@ -1,6 +1,3 @@
-# Turn ... into cd ../../
-abbr --add dotdot --regex '^\.\.+$' --function multicd
-
 abbr pn "pnpm"
 abbr pnd "pnpm dev"
 abbr pnb "pnpm build"

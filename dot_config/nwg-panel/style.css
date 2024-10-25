@@ -30,7 +30,7 @@ button {
 #panel-top {
 	/* background: transparentize(@theme_bg_color, 0.5); */
 	/* background: mix(@theme_bg_color, transparent, 0.9); */
-	background: transparent;
+	background: linear-gradient(to bottom, alpha( black, 0.4 ), transparent);
 	color: @fg;
 	padding-top: 2px;
 }
@@ -97,7 +97,7 @@ opacity: 1;
 #controls-window,
 #calendar-window {
 	border-radius: 8px;
-	background-color: @bg-dark;
+	background-color: alpha( @theme_bg_color, 100 );
 	border: solid 1px @main-border;
 }
 

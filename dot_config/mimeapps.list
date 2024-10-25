@@ -58,3 +58,4 @@ image/svg+xml=org.gnome.eog.desktop
 x-scheme-handler/webcal=brave-browser-nightly.desktop
 x-scheme-handler/tg=io.github.kukuruzka165.materialgram.desktop
 x-scheme-handler/tonsite=io.github.kukuruzka165.materialgram.desktop
+x-scheme-handler/figma=figma-linux.desktop

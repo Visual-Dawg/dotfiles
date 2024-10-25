@@ -21,3 +21,8 @@ shell 'dragon-drop --and-exit --icon-only --on-top "$0"' --confirm --orphan
 on   = "<C-s>"
 run  = 'shell "$SHELL" --block --confirm'
 desc = "Open shell here"
+
+[[manager.prepend_keymap]]
+on   = "F"
+run  = "plugin smart-filter"
+desc = "Smart filter"
