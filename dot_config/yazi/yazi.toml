@@ -53,6 +53,7 @@ extract = [
 play = [
 	{ run = 'mpv --force-window "$@"', orphan = true, for = "unix" },
 	{ run = 'mpv --force-window %*', orphan = true, for = "windows" },
+	{ run = 'amberol "$@"', orphan = true, for = "unix" },
 	{ run = '''mediainfo "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show media info", for = "unix" },
 ]
 
@@ -128,6 +129,10 @@ previewers = [
 	{ mime = "inode/x-empty", run = "empty" },
 	# Fallback
 	{ name = "*", run = "file" },
+]
+
+prepend_previewers = [
+    { mime = "audio/*",   run = "exifaudio"}
 ]
 
 [input]
