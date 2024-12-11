@@ -23,6 +23,7 @@ end
 # pnpm end
 
 
+
 set -gx EDITOR nvim
 set -gx SUDO_EDITOR nvim
 set -gx VISUAL nvim
@@ -53,5 +54,10 @@ function fish_greeting
 end
 
 
+set PATH $PATH ~/go/bin
+set fish_vi_force_cursor true
 # Created by `pipx` on 2024-10-05 22:27:21
 set PATH $PATH /home/vdawg/.local/bin
+
+
+
