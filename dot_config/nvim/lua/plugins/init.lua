@@ -46,6 +46,13 @@ return {
 	{ 'echasnovski/mini.fuzzy', version = '*', cond = not isVscode },
 	{ 'echasnovski/mini-git', version = '*', cond = not isVscode },
 	{ 'echasnovski/mini.animate', version = '*', cond = not isVscode },
+	{
+    'fei6409/log-highlight.nvim',
+		cond = not isVscode,
+    config = function()
+        require('log-highlight').setup {}
+    end,
+},
 
 
 	{
@@ -64,7 +71,7 @@ return {
 				},
 			})
 
-			vim.cmd("autocmd Colorscheme * highlight NvimTreeNormal guibg=#00000000 guifg=#9da5b3")
+			-- vim.cmd("autocmd Colorscheme * highlight NvimTreeNormal guibg=#00000000 guifg=#9da5b3")
 		end,
 	},
 }
