@@ -55,3 +55,14 @@ if vim.g.vscode then
 		vim.fn["VSCodeCall"]("workbench.action.closeActiveEditor")
 	end)
 end
+
+
+if vim.g.neovide then
+  vim.keymap.set(
+    {'n', 'v', 's', 'x', 'o', 'i', 'l', 'c', 't'},
+    '<C-S-v>',
+    function() vim.api.nvim_paste(vim.fn.getreg('+'), true, -1) end,
+    { noremap = true, silent = true }
+)
+end
+

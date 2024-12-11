@@ -1,0 +1,19 @@
+fork = true
+frame = "full"
+idle = true
+maximized = false
+no-multigrid = false
+srgb = true
+tabs = true
+theme = "auto"
+mouse-cursor-icon = "arrow"
+title-hidden = true
+vsync = true
+wsl = false
+
+[font]
+normal = ["Monaspace Argon", "Jetbrains Mono"] 
+size = 14.0
+
+[font.features]
+"Monaspace Argon" = ['+ss02', '+ss03', '+ss04', '+ss05', '+ss06', '+ss07', '+ss08', '+ss09', '+ss01', '+calt', '+liga']
