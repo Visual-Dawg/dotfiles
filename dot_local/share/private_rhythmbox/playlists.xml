@@ -85,5 +85,5 @@
       </subquery>
     </conjunction>
   </playlist>
-  <playlist name="Play Queue" show-browser="true" browser-position="76" search-type="search-match" type="queue"/>
+  <playlist name="Play Queue" show-browser="true" browser-position="155" search-type="search-match" type="queue"/>
 </rhythmdb-playlists>

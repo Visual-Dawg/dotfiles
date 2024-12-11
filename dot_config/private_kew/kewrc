@@ -49,11 +49,11 @@ addToMainPlaylist=.
 updateLibrary=u
 
 # The different main views, normally F2-F6: 
-showPlaylistAlt=
-showLibraryAlt=
-showTrackAlt=
-showSearchAlt=
-showKeysAlt=
+showPlaylistAlt=Z
+showLibraryAlt=X
+showTrackAlt=C
+showSearchAlt=V
+showKeysAlt=B
 
 quit=q
 

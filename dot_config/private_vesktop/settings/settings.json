@@ -221,7 +221,10 @@
             "enabled": false
         },
         "MessageLinkEmbeds": {
-            "enabled": true
+            "enabled": true,
+            "listMode": "blacklist",
+            "idList": "",
+            "automodEmbeds": "never"
         },
         "MessageLogger": {
             "enabled": true,
@@ -233,7 +236,8 @@
             "ignoreGuilds": "",
             "logEdits": true,
             "logDeletes": true,
-            "collapseDeleted": false
+            "collapseDeleted": false,
+            "inlineEdits": true
         },
         "MessageTags": {
             "enabled": false,
@@ -310,7 +314,7 @@
             "onboarding": true
         },
         "PermissionsViewer": {
-            "enabled": false
+            "enabled": true
         },
         "petpet": {
             "enabled": false
@@ -655,7 +659,8 @@
             "enabled": false
         },
         "MentionAvatars": {
-            "enabled": true
+            "enabled": true,
+            "showAtSymbol": true
         },
         "YoutubeAdblock": {
             "enabled": true
@@ -680,6 +685,12 @@
         },
         "UserMessagesPronouns": {
             "enabled": false
+        },
+        "DynamicImageModalAPI": {
+            "enabled": false
+        },
+        "AccountPanelServerProfile": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -692,6 +703,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1729777278106
+        "settingsSyncVersion": 1729884453852
     }
 }
