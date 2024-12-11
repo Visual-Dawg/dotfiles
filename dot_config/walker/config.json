@@ -1,7 +1,9 @@
 {
   "builtins": {
     "applications": {
-      "actions": true,
+      "actions": {
+		"enabled": true
+	    },
       "context_aware": true,
       "name": "applications",
       "placeholder": "Applications",

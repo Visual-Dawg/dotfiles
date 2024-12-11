@@ -22,6 +22,7 @@
 					"bottom": 0,
 					"top": 0
 				},
+				"min_height": 200,
 				"max_height": 400,
 				"max_width": 400,
 				"width": 400,
@@ -37,9 +38,10 @@
 						"orientation": "vertical",
 						"name": "list",
 						"v_scrollbar_policy": "automatic",
-						"max_width": 400,
+						"min_height": 400,
 						"width": 400,
 						"min_width": 400,
+						"max_width": 400,
 						"item": {
 							"name": "item",
 							"orientation": "horizontal",
