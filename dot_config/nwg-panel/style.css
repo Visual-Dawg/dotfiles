@@ -30,7 +30,7 @@ button {
 #panel-top {
 	/* background: transparentize(@theme_bg_color, 0.5); */
 	/* background: mix(@theme_bg_color, transparent, 0.9); */
-	background: linear-gradient(to bottom, alpha( black, 0.4 ), transparent);
+	background: linear-gradient(to bottom, alpha( black, 0.6 ), transparent);
 	color: @fg;
 	padding-top: 2px;
 }
