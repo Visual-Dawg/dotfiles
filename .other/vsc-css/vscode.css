@@ -14,7 +14,7 @@
   background-color: var(--vscode-sideBar-background) !important;
 }
 #workbench\.parts\.editor {
-  border-radius: var(--round-sm) !important;
+  border-radius: var(--round-md) !important;
 }
 
 /* for transparent terminal */
@@ -107,7 +107,7 @@
 }
 /* misc */
 .monaco-editor .cursors-layer .cursor {
-  border-radius: 2px;
+  border-radius: 8px;
 }
 .slider {
   border-radius: var(--round);
