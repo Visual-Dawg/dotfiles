@@ -5,7 +5,7 @@ coverEnabled=1
 coverAnsi=0
 visualizerEnabled=1
 visualizerHeight=5
-useProfileColors=1
+useConfigColors=0
 allowNotifications=0
 hideLogo=1
 hideHelp=1
@@ -17,13 +17,13 @@ cacheLibrary=1
 # Color values are 0=Black, 1=Red, 2=Green, 3=Yellow, 4=Blue, 5=Magenta, 6=Cyan, 7=White
 # These mostly affect the library view.
 
-# Logo color: 
+# Logo color:
 color=6
-# Header color in library view: 
+# Header color in library view:
 artistColor=6
-# Now playing song text in library view: 
+# Now playing song text in library view:
 titleColor=6
-# Color of enqueued songs in library view: 
+# Color of enqueued songs in library view:
 enqueuedColor=7
 
 # Key Bindings:
@@ -48,7 +48,7 @@ savePlaylist=x
 addToMainPlaylist=.
 updateLibrary=u
 
-# The different main views, normally F2-F6: 
+# The different main views, normally F2-F6:
 showPlaylistAlt=Z
 showLibraryAlt=X
 showTrackAlt=C
