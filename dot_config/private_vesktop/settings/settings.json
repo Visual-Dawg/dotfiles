@@ -185,9 +185,6 @@
         "GreetStickerPicker": {
             "enabled": true
         },
-        "HideAttachments": {
-            "enabled": false
-        },
         "iLoveSpam": {
             "enabled": true
         },
@@ -451,7 +448,9 @@
         },
         "TypingTweaks": {
             "enabled": true,
-            "alternativeFormatting": true
+            "alternativeFormatting": true,
+            "showRoleColors": true,
+            "showAvatars": true
         },
         "Unindent": {
             "enabled": true
@@ -691,6 +690,15 @@
         },
         "AccountPanelServerProfile": {
             "enabled": false
+        },
+        "HideMedia": {
+            "enabled": false
+        },
+        "FullUserInChatbox": {
+            "enabled": false
+        },
+        "IrcColors": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -703,6 +711,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1729884453852
+        "settingsSyncVersion": 1738752412345
     }
 }
