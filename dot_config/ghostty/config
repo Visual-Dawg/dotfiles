@@ -1,0 +1,52 @@
+window-decoration = false
+adw-toolbar-style = flat
+gtk-tabs-location = hidden
+background = 000000
+background-opacity = 1
+window-padding-x = 20
+window-padding-y = 20
+window-padding-balance = true
+minimum-contrast = 1
+
+
+keybind = ctrl+shift+t=toggle_tab_overview
+keybind = ctrl+t=new_tab
+
+
+font-size = 14
+font-family = Monaspace Argon
+font-feature = ss02 
+font-feature = ss03 
+font-feature = ss04 
+font-feature = ss05 
+font-feature = ss06 
+font-feature = ss07 
+font-feature = ss08 
+font-feature = ss09 
+font-feature = ss01 
+font-feature = calt 
+font-feature = liga
+font-feature = case
+
+# theme Gruvbox Material
+palette = 0=#665c54
+palette = 1=#b85651
+palette = 2=#a9b665
+palette = 3=#e78a4e
+palette = 4=#7daea3
+palette = 5=#d3869b
+palette = 6=#89b482
+palette = 7=#ddc7a1
+palette = 8=#928374
+palette = 9=#ea6962
+palette = 10=#a9b665
+palette = 11=#d8a657
+palette = 12=#7daea3
+palette = 13=#d3869b
+palette = 14=#89b482
+palette = 15=#ddc7a1
+foreground = d4be98
+cursor-color = a89984
+selection-background = 2b2c3f
+selection-foreground = 333e34
+
