@@ -21,8 +21,8 @@
       "hyprland-workspaces"
     ],
     "modules-right": [
-      "executor-wifi",
-      "swaync"
+      "swaync",
+      "tray"
     ],
     "controls-settings": {
       "components": [
@@ -90,8 +90,9 @@
     "tray": {
       "root-css-name": "tray",
       "inner-css-name": "inner-tray",
-      "icon-size": 14,
-      "smooth-scrolling-threshold": 0
+      "icon-size": 16,
+      "smooth-scrolling-threshold": 0,
+      "new-left": false
     },
     "clock": {
       "format": "%H:%M %d.%m ",
@@ -230,6 +231,12 @@
       "angle": 0.0,
       "sigrt": 34,
       "use-sigrt": false
-    }
+    },
+    "run-if-output-exist": [],
+    "run-if-output-absent": [],
+    "monitor": "",
+    "width-as-percentage": false,
+    "hyprland-submap": {},
+    "random-wallpaper": {}
   }
 ]
