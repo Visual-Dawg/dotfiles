@@ -4,12 +4,13 @@ SETUVAR --export ABBR_TIPS_PROMPT:\x5cn\U0001f4a1\x20\x5ce\x5b1m\x7b\x7b\x20\x2e
 SETUVAR --export ABBR_TIPS_REGEXES:\x28\x5e\x28\x5cw\x2b\x5cs\x2b\x29\x2b\x28\x2d\x7b1\x2c2\x7d\x29\x5cw\x2b\x29\x28\x5cs\x5cS\x2b\x29\x1e\x28\x5e\x28\x5cs\x3f\x28\x5cw\x2d\x3f\x29\x2b\x29\x7b3\x7d\x29\x2e\x2a\x1e\x28\x5e\x28\x5cs\x3f\x28\x5cw\x2d\x3f\x29\x2b\x29\x7b2\x7d\x29\x2e\x2a\x1e\x28\x5e\x28\x5cs\x3f\x28\x5cw\x2d\x3f\x29\x2b\x29\x7b1\x7d\x29\x2e\x2a
 SETUVAR --export EDITOR:nvim
 SETUVAR --export MANPAGER:nvim\x20\x2bMan\x21
+SETUVAR --export --path PATH:/home/vdawg/\x2ecargo/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl\x1e/home/vdawg/\x2epub\x2dcache/bin
 SETUVAR --export SUDO_EDITOR:nvim
 SETUVAR --export TERM:kitty
 SETUVAR --export VISUAL:nvim
 SETUVAR --export __ABBR_TIPS_KEYS:pn\x1epnd\x1epnb\x1epni\x1exclip\x1ecz\x1epac\x1epacr\x1eyays\x1eicat\x1ec\x2e\x1en\x2e\x1eh\x2e\x1emvd\x1emvc\x1emvs\x1elsg\x1ey\x1ewgu\x1ewgd\x1eg\x1egitc\x1egitf\x1egitp\x1edotdot
 SETUVAR --export __ABBR_TIPS_VALUES:pnpm\x1epnpm\x20dev\x1epnpm\x20build\x1epnpm\x20install\x1exclip\x20\x2dselection\x20c\x1echezmoi\x1esudo\x20pacman\x20\x2dS\x20\x1esudo\x20pacman\x20\x2dR\x20\x1eyay\x20\x2dSyu\x20\x1ekitty\x20\x2bkitten\x20icat\x1ecode\x20\x2e\x1envim\x20\x2e\x1envim\x20\x7e/\x2econfig/hypr\x1emullvad\x20disconnect\x1emullvad\x20connect\x1emullvad\x20status\x1els\x20\x7c\x20rg\x20\x1eyazi\x1ewg\x2dquick\x20up\x20job\x20\x1ewg\x2dquick\x20down\x20job\x20\x1egit\x1egit\x2dclone\x2dand\x2dcd\x1egit\x5c\x20add\x5c\x20\x2dA\x5c\x20\x5c\x26\x5c\x26\x5c\x20git\x5c\x20commit\x5c\x20\x2dm\x5c\x20\x5c\x27commit\x5c\x20save\x5c\x20point\x5c\x27\x5c\x20\x5c\x26\x5c\x26\x5c\x20git\x5c\x20push\x1egit\x20pull\x1e
-SETUVAR __fish_initialized:3400
+SETUVAR __fish_initialized:3800
 SETUVAR _fisher_franciscolourenco_2F_done_files:\x7e/\x2econfig/fish/conf\x2ed/done\x2efish
 SETUVAR _fisher_g_2D_plane_2F_pnpm_2D_shell_2D_completion_files:\x7e/\x2econfig/fish/conf\x2ed/pnpm\x2dshell\x2dcompletion\x2efish
 SETUVAR _fisher_gazorby_2F_fifc_files:\x7e/\x2econfig/fish/functions/_fifc\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_action\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_completion_group\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_expand_tilde\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_file_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_help\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_open_cmd\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_open_dir\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_open_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_open_fn\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_open_opt\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_open_process\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_parse_complist\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_parse_pid\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_path_to_complete\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_cmd\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_dir\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_file_default\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_fn\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_opt\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_process\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_source_directories\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_source_files\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_test_version\x2efish\x1e\x7e/\x2econfig/fish/functions/fifc\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fifc\x2efish\x1e\x7e/\x2econfig/fish/completions/fifc\x2efish
@@ -23,7 +24,7 @@ SETUVAR --export fifc_editor:nvim
 SETUVAR fifc_open_keybinding:ctrl\x2do
 SETUVAR fish_color_history_current:\x2d\x2dbold
 SETUVAR fish_color_host_remote:yellow
-SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_search_match:white\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_status:red
 SETUVAR fish_key_bindings:fish_vi_key_bindings
 SETUVAR fish_pager_color_completion:normal
@@ -31,6 +32,7 @@ SETUVAR fish_pager_color_description:yellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR fish_user_paths:/home/vdawg/go/bin\x1e/home/vdawg/\x2elocal/share/pnpm\x1e/home/vdawg/\x2epub\x2dcache/bin
 SETUVAR sponge_allow_previously_successful:true
 SETUVAR sponge_delay:2
 SETUVAR sponge_filters:sponge_filter_failed\x1esponge_filter_matched

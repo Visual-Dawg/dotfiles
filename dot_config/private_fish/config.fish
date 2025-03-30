@@ -14,13 +14,14 @@ and . (code --locate-shell-integration-path fish)
 
 # Rust
 source "$HOME/.cargo/env.fish"
-
+# Dart
+fish_add_path $HOME/.pub-cache/bin
 # pnpm
-set -gx PNPM_HOME "$HOME/.local/share/pnpm"
-if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
-end
-# pnpm end
+fish_add_path "$HOME/.local/share/pnpm"
+# pipx
+fish_add_path $HOME/vdawg/.local/bin
+# go
+fish_add_path $HOME/go/bin
 
 
 
@@ -45,8 +46,6 @@ if status is-interactive
 	atuin init fish | source
 	starship init fish | source # prompt
     zoxide init fish --cmd cd | source # folder auto jumping
-
-
 end
 
 function fish_greeting
@@ -54,10 +53,7 @@ function fish_greeting
 end
 
 
-set PATH $PATH ~/go/bin
 set fish_vi_force_cursor true
-# Created by `pipx` on 2024-10-05 22:27:21
-set PATH $PATH /home/vdawg/.local/bin
 
 
 
