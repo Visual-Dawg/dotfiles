@@ -1,5 +1,8 @@
+activitywatch-bin
 anyrun-git
 atuin
+aw-awatcher
+aw-watcher-media-player
 bat
 bitwarden
 blanket
@@ -62,6 +65,7 @@ nwg-displays
 nwg-look
 nwg-panel
 obsidian
+pacman-log-orphans-hook
 pacseek
 pamac
 pamixer
