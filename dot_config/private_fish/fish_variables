@@ -8,8 +8,8 @@ SETUVAR --export --path PATH:/home/vdawg/\x2ecargo/bin\x1e/usr/local/sbin\x1e/us
 SETUVAR --export SUDO_EDITOR:nvim
 SETUVAR --export TERM:kitty
 SETUVAR --export VISUAL:nvim
-SETUVAR --export __ABBR_TIPS_KEYS:pn\x1epnd\x1epnb\x1epni\x1exclip\x1ecz\x1epac\x1epacr\x1eyays\x1eicat\x1ec\x2e\x1en\x2e\x1eh\x2e\x1emvd\x1emvc\x1emvs\x1elsg\x1ey\x1ewgu\x1ewgd\x1eg\x1egitc\x1egitf\x1egitp\x1edotdot
-SETUVAR --export __ABBR_TIPS_VALUES:pnpm\x1epnpm\x20dev\x1epnpm\x20build\x1epnpm\x20install\x1exclip\x20\x2dselection\x20c\x1echezmoi\x1esudo\x20pacman\x20\x2dS\x20\x1esudo\x20pacman\x20\x2dR\x20\x1eyay\x20\x2dSyu\x20\x1ekitty\x20\x2bkitten\x20icat\x1ecode\x20\x2e\x1envim\x20\x2e\x1envim\x20\x7e/\x2econfig/hypr\x1emullvad\x20disconnect\x1emullvad\x20connect\x1emullvad\x20status\x1els\x20\x7c\x20rg\x20\x1eyazi\x1ewg\x2dquick\x20up\x20job\x20\x1ewg\x2dquick\x20down\x20job\x20\x1egit\x1egit\x2dclone\x2dand\x2dcd\x1egit\x5c\x20add\x5c\x20\x2dA\x5c\x20\x5c\x26\x5c\x26\x5c\x20git\x5c\x20commit\x5c\x20\x2dm\x5c\x20\x5c\x27commit\x5c\x20save\x5c\x20point\x5c\x27\x5c\x20\x5c\x26\x5c\x26\x5c\x20git\x5c\x20push\x1egit\x20pull\x1e
+SETUVAR --export __ABBR_TIPS_KEYS:dotdot
+SETUVAR --export __ABBR_TIPS_VALUES:
 SETUVAR __fish_initialized:3800
 SETUVAR _fisher_franciscolourenco_2F_done_files:\x7e/\x2econfig/fish/conf\x2ed/done\x2efish
 SETUVAR _fisher_g_2D_plane_2F_pnpm_2D_shell_2D_completion_files:\x7e/\x2econfig/fish/conf\x2ed/pnpm\x2dshell\x2dcompletion\x2efish
@@ -18,9 +18,10 @@ SETUVAR _fisher_gazorby_2F_fish_2D_abbreviation_2D_tips_files:\x7e/\x2econfig/fi
 SETUVAR _fisher_jorgebucaran_2F_autopair_2E_fish_files:\x7e/\x2econfig/fish/functions/_autopair_backspace\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_left\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_right\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_same\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_tab\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/autopair\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:\x7e/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_list\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
-SETUVAR _fisher_plugins:jrgebucaran/fisher\x1ejorgebucaran/autopair\x2efish\x1efranciscolourenco/done\x1egazorby/fish\x2dabbreviation\x2dtips\x1egazorby/fifc\x1ejorgebucaran/nvm\x2efish\x1eg\x2dplane/pnpm\x2dshell\x2dcompletion
+SETUVAR _fisher_plugins:jorgebucaran/autopair\x2efish\x1efranciscolourenco/done\x1egazorby/fish\x2dabbreviation\x2dtips\x1egazorby/fifc\x1ejorgebucaran/nvm\x2efish\x1eg\x2dplane/pnpm\x2dshell\x2dcompletion
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR --export fifc_editor:nvim
+SETUVAR fifc_keybinding:\x09
 SETUVAR fifc_open_keybinding:ctrl\x2do
 SETUVAR fish_color_history_current:\x2d\x2dbold
 SETUVAR fish_color_host_remote:yellow
