@@ -1,0 +1,13 @@
+# vim: filetype=toml
+
+[ edit ]
+  command = "nvim"
+
+
+[ merge ]
+  command = "nvim"
+  args = [
+	   "-d",
+	   {{ printf "%q" "{{ .Destination }}" }},
+       {{ printf "%q" "{{ .Source }}" }},
+  ]
