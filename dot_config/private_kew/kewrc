@@ -2,11 +2,7 @@
 
 [miscellaneous]
 path=/mnt/media/z_Bearbeiten
-coverEnabled=1
-coverAnsi=0
-visualizerEnabled=1
-visualizerHeight=5
-useConfigColors=0
+version=3.2.0
 allowNotifications=0
 hideLogo=1
 hideHelp=1
