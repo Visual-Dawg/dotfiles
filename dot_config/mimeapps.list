@@ -31,6 +31,7 @@ application/x-extension-shtml=brave-browser.esktop;zen.desktop;
 application/xhtml+xml=brave-browser.esktop;zen.desktop;
 application/x-extension-xhtml=brave-browser.esktop;zen.desktop;
 application/x-extension-xht=brave-browser.esktop;zen.desktop;
+image/gif=org.gnome.eog.desktop;
 
 [Default Applications]
 application/json=code-oss.desktop;
@@ -76,3 +77,4 @@ application/x-extension-xhtml=zen.desktop
 application/x-extension-xht=zen.desktop
 x-scheme-handler/discord=vesktop.desktop
 x-scheme-handler/betterdiscord=discord.desktop
+image/gif=org.gnome.eog.desktop
