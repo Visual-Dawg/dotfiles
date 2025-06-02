@@ -8,18 +8,14 @@
 	"gtk-layer-shell": true,
 	"margin": "0px 12px 0px 12px",
 
-	"modules-left": ["hyprland/workspaces"],
-	"modules-center": [],
+	"modules-left": [],
+	"modules-center": [
+		"hyprland/workspaces"
+	],
 	"modules-right": [
-		"bluetooth",
 		"pulseaudio",
-		"pulseaudio#microphone",
-		  "custom/notification",
-		"tray",
 		"battery",
-		"custom/cliphist",
-		"clock",
-		"custom/power"
+		"clock"
 	],
 
 	"cpu": {
@@ -39,7 +35,7 @@
 	},
 
 	"clock": {
-		"format": "{:%H:%M  %p  %a %d}",
+		"format": "{:%H:%M}",
 		"format-alt": "{:%H:%M  %b %Y}",
 		"tooltip-format": "{calendar}"
 	},

@@ -29,7 +29,7 @@
 }
 
 window#waybar {
-	background: @bar-bg;
+	background: transparent;
 	border-radius: 12px;
 }
 
@@ -40,36 +40,35 @@ tooltip {
 	padding: 16px;
 }
 
-#workspaces { }
+#workspaces {
+}
 
 #workspaces button {
-	min-width: 24px;
-	margin: 0px 6px; 
-    transition: none;
+	min-width: 32px;
+	min-height: 32px;
+	transition: none;
+	color: blue;
+	background-image: url("/home/vdawg/dev/hypr-audio/assets/Horde_Circular_Frame.PNG");
+	background-repeat: no-repeat;
+	background-size: 56px 56px;
+	background-position: center;
 }
 
 #workspaces button label {
 	min-width: 10px;
-    min-height: 10px;
-    background: @theme_bg_color;
-    color: @theme_fg_color;
+	min-height: 10px;
 	border-radius: 999px;
-    font-size: 12px;
+	font-size: 12px;
+	color: @wb-color;
 }
 
 #workspaces button.active {
-	background: @theme_fg_color;
-	min-width: 56px;
-	color: @theme_bg_color;
-    transition: none;
+	transition: none;
 }
 #workspaces button.active label {
-  background: transparent;
-  color: @theme_bg_color;
-  padding: 0px 0px 0px 16px;
+	background: transparent;
+	color: red;
 }
-
-
 
 #taskbar button.active {
 	border-bottom: solid 2px @dark;
@@ -93,7 +92,6 @@ tooltip {
 	animation: gradient_f 20s ease-in infinite;
 	transition: all 320ms cubic-bezier(0.55, 0.18, 0.048, 1);
 }
-
 
 #cpu,
 #battery,
@@ -123,7 +121,6 @@ tooltip {
 	padding: 0px;
 }
 
-
 #custom-power {
 	padding-left: 24px;
 	padding-right: 24px;
@@ -133,7 +130,6 @@ tooltip {
 	padding-left: 24px;
 	padding-right: 24px;
 }
-
 
 #custom-r_end {
 	border-radius: 0px 24px 24px 0px;
