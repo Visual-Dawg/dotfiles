@@ -27,11 +27,9 @@ sudo systemctl enable --now keyd
 sudo keyd reload
 
 # Git stuff
-git config --global user.name "VDawg"
-git config --global user.email "vdawg@tuta.io"
+# git config --global user.name "VDawg"
+# git config --global user.email "vdawg@tuta.io"
 
-# Install Material Gram (Telgram Client)
-sudo sh -c "curl -s https://raw.githubusercontent.com/materialgram/arch/x86_64/installer.sh | bash"
 
 # For WireGuard
-sudo systemctl enable --now systemd-resolved
+# sudo systemctl enable --now systemd-resolved
