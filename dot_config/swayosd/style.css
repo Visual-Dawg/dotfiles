@@ -1,0 +1,47 @@
+* {color: @theme_fg_color;}
+
+#osd {
+  border-radius: 999px;
+  border: alpha(@theme_fg_color, 0.2) 1px solid;
+  background: alpha(@theme_bg_color, 0.8);
+  color: @theme_fg_color;
+  padding: 12px 24px;
+}
+
+
+  image,
+  label {
+    color: @theme_fg_color;
+  }
+
+
+  #container {
+    margin: 12px;
+  }
+
+
+  progressbar:disabled,
+  image:disabled {
+    opacity: 0.5;
+  }
+
+  progressbar {
+    min-height: 6px;
+    border-radius: 999px;
+    background: transparent;
+    border: none;
+  }
+
+  trough {
+    min-height: inherit;
+    border-radius: inherit;
+    border: none;
+    background: alpha(@theme_fg_color, 0.5);
+  }
+
+  progress {
+    min-height: inherit;
+    border-radius: inherit;
+    border: none;
+    background: @theme_fg_color;
+  }
